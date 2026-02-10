@@ -3,15 +3,15 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DD40V>
-    <TYPENAME>ZTT_GENDER</TYPENAME>
+    <TYPENAME>ZSVG_CE_TT_GENDER</TYPENAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <ROWTYPE>ZST_GENDER</ROWTYPE>
+    <ROWTYPE>ZSVG_CE_ST_GENDER</ROWTYPE>
     <ROWKIND>S</ROWKIND>
     <DATATYPE>STRU</DATATYPE>
     <ACCESSMODE>T</ACCESSMODE>
     <KEYDEF>D</KEYDEF>
     <KEYKIND>N</KEYKIND>
-    <DDTEXT>Table type for gender</DDTEXT>
+    <DDTEXT>Table type for custom entity - Gender</DDTEXT>
     <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD40V>
   </asx:values>

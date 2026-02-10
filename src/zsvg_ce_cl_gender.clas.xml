@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZCL_SVG_GENDER</CLSNAME>
+    <CLSNAME>ZSVG_CE_CL_GENDER</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Class for custom entity ender</DESCRIPT>
+    <DESCRIPT>Class for custom entity -  Gender</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

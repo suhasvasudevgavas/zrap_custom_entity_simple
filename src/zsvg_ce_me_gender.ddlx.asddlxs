@@ -1,0 +1,23 @@
+@Metadata.layer: #CORE
+
+@UI.headerInfo: { typeName: 'Gender',
+                  typeNamePlural: 'Genders',
+                  title: { type: #STANDARD, label: 'Gender', value: 'gender' } }
+
+annotate entity zsvg_ce_gender
+    with
+
+{
+  @UI.facet: [ { id: 'gender',
+                 label: 'Gender',
+                 position: 10,
+                 purpose: #STANDARD,
+                 type: #IDENTIFICATION_REFERENCE } ]
+  @UI.identification: [ { position: 10, label: 'Gender' } ]
+  @UI.lineItem: [ { position: 10, label: 'Gender' } ]
+  gender;
+
+  @UI.identification: [ { position: 20, label: 'Description' } ]
+  @UI.lineItem: [ { position: 20, label: 'Description' } ]
+  description;
+}
