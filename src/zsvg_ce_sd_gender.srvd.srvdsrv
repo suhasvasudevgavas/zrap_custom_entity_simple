@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service def for custom entity - Gender'
+define service Zsvg_ce_sd_gender {
+  expose zsvg_ce_gender;
+}
